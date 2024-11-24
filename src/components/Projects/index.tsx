@@ -17,7 +17,7 @@ export function Projects() {
       </ProjectsContainer>
       <ProjectsContainer>
         <h4>
-          <a href={'https:://flutter-project-proud-paper-3157.fly.dev'} target={'_blank'}>
+          <a href={'https://flutter-project-proud-paper-3157.fly.dev'} target={'_blank'}>
             WhatsNext? - Mobile & Desktop
           </a>
         </h4>
