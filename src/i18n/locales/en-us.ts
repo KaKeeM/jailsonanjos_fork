@@ -17,7 +17,8 @@ export default {
         projects: {
             description: {
                 whatsnextweb: "Social network for organization enthusiasts. Allows creating notes in blocks, instead of one large text. Integrated with AI.",
-                whatsnextmobile: "Social network for organization enthusiasts. This time available for Android and Desktop."
+                whatsnextmobile: "Social network for organization enthusiasts. This time available for Android and Desktop.",
+                shopify: "Landing page of a Shopify store."
             } 
         }, 
         scroll: {

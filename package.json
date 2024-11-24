@@ -1,6 +1,6 @@
 {
-  "homepage": "https://jairocket.github.io/jailsonanjos",
-  "name": "jailsonanjos",
+  "homepage": "https://KaKeeM.github.io/KaKeeM",
+  "name": "juliaamorim",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "deploy": "flyclt deploy"
   },
   "dependencies": {
     "gh-pages": "^4.0.0",
