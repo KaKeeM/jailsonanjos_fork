@@ -24,7 +24,6 @@ import { SocialMediaLinks } from './components/SocialMediaLinks'
 import { Skills } from './components/Skills'
 
 import { projects, articles } from './data'
-import { Footer } from './components/Footer'
 import background from './assets/image.jpg'
 
 
@@ -33,15 +32,7 @@ function App() {
 
   return (
     <div>
-      <div style={{ 
-      backgroundImage: `url(${background})`,
-      backgroundRepeat: 'no-repeat',
-      backgroundSize: "cover",
-      height: "80vh",
-      backgroundAttachment: "fixed",
-
-      
-    }}>
+ 
       <ThemeProvider theme={defaultTheme}>
           <GlobalStyle />
           <Header />
@@ -56,31 +47,29 @@ function App() {
                 <Skills />
                 <SocialMediaLinks />
               </HeadingAndData>
+              
             </IdContainer>
-            
-            <Footer />
+            <div className='bottom'>
+              <ProjectsContainer>
+                <Heading2 id="projects">{t("section.projects")}</Heading2>
+              <Projects />
+              </ProjectsContainer>
+              <ArticlesContainer>
+                <Heading2 id="articles">{t("section.articles")}</Heading2>
+                  {articles.map((article) => {
+                    const { href, title } = article
+                      return (
+                        <Article
+                          key={title}
+                          href={href}
+                          title={title}
+                        />
+                      )
+                  })}
+              </ArticlesContainer>
+          </div>
           </AppContainer>
         </ThemeProvider>
-    </div>
-     <div className='bottom'>
-        <ProjectsContainer>
-          <Heading2 id="projects">{t("section.projects")}</Heading2>
-        <Projects />
-        </ProjectsContainer>
-        <ArticlesContainer>
-          <Heading2 id="articles">{t("section.articles")}</Heading2>
-            {articles.map((article) => {
-              const { href, title } = article
-                return (
-                  <Article
-                    key={title}
-                    href={href}
-                    title={title}
-                  />
-                )
-            })}
-        </ArticlesContainer>
-    </div>
     </div>
     
    

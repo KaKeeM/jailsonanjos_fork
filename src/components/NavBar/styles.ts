@@ -1,17 +1,18 @@
 import styled from 'styled-components'
 
 export const NavContainer = styled.nav`
-  background-color: ${(props) => props.theme['gray-300']};
+  background-color: #c0ddfc;
   height: 5rem;
   width: 8rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0.5rem;
+  align-items: center;
   border-radius: 8px;
   position: absolute;
   overflow: hidden;
   right: 4rem;
+
 `
 
 export const MobileNavBar = styled.nav`
@@ -22,16 +23,21 @@ export const MobileNavBar = styled.nav`
     flex-direction: row;
     position: static;
     width: 12rem;
+
   }
 `
 export const ListItem = styled.li`
   list-style: none;
-  margin: 0.25rem;
   height: 2.5rem;
+  display: flex; // Adiciona display flex
+  align-items: center; // Centraliza verticalmente
+  justify-content: center; // Centraliza horizontalmente
+
   @media screen and (min-width: 768px) {
     margin: 1rem;
   }
 `
+
 export const LinkContainer = styled.a`
 
   color: ${(props) => props.theme['gray-900']};

@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import background from '../assets/image.jpg'
 
 export const AppContainer = styled.div`
   display: flex;
@@ -6,16 +7,9 @@ export const AppContainer = styled.div`
   align-items: center;
   padding: 0;
   text-align: center;
-  background-image: url('src/assets/image.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
   margin: 0;
-  background-size: 100% 100%;
-  padding-right: 2rem;
-  padding-left: 3.5rem;
 
   @media screen and (min-width: 768px) {
     align-items: flex-start;
@@ -44,7 +38,12 @@ export const IdContainer = styled.div`
   flex-direction: column;
   align-items: center;
   margin-bottom: 2rem;
-  width: 100vw;
+  background-image: url(${background});
+  backgroundRepeat: 'no-repeat';
+  backgroundSize: "cover";
+  height: "80vh";
+  backgroundAttachment: "fixed";
+  margin-bottom: "20px";
 
   @media screen and (min-width: 768px) {
     flex-direction: row-reverse;

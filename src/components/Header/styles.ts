@@ -13,7 +13,7 @@ export const HeaderContainer = styled.header`
   }
 
   @media screen and (min-width: 768px) {
-    padding: 0 8rem;
+    padding: 0 8 rem;
     margin-bottom: 3rem;
   }
 `
@@ -21,4 +21,5 @@ export const HeaderContainer = styled.header`
 export const AvatarContainer = styled.div`
   display: flex;
   flex-direction: column;
+
 `

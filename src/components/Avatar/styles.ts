@@ -16,6 +16,7 @@ export const AvatarViewContainer = styled.div`
   flex-direction: column;
   align-items: center;
   padding-top: 1rem;
+  margin-left: 1rem;
 `
 
 export const AvatarContainerSmall = styled.div`
@@ -26,6 +27,7 @@ export const AvatarContainerSmall = styled.div`
   justify-content: center;
   width: fit-content;
   margin-bottom: 2rem;
+  
   background-color: ${(props) => props.theme['gray-300']};
 `
 export const AvatarSmall = styled.img`

@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const ButtonContainer = styled.button`
   background-color: transparent;
   border: transparent;
+  margin-right: 1rem;
 
   @media screen and (min-width: 768px) {
     display: none;

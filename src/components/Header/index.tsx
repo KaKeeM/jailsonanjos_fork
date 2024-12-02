@@ -16,7 +16,7 @@ export function Header() {
     <>
       <HeaderContainer> 
 
-          <Avatar src={happyAvatar} size={'small'} />
+        <Avatar src={happyAvatar} size={'small'} />
           
         <NavBar isMobile />
         <Button src={sandwichButton} handleClick={handleClick} />

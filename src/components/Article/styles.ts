@@ -7,9 +7,13 @@ export const ArticlesContainer = styled.div`
   margin: 5rem;
   justify-content: flex-start;
 
+  @media screen and (max-width: 767px) {
+    margin: 1rem;
+  }
+    
   h2 {
     @media screen and (min-width: 768px) {
-      padding: 1rem;
+      padding: 0.5rem;
     }
   }
 
