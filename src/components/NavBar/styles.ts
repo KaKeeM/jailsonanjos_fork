@@ -7,13 +7,11 @@ export const NavContainer = styled.nav`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  border-radius: 8px;
   position: absolute;
-  overflow: hidden;
   right: 4rem;
-
+  overflow: hidden; 
 `
+
 
 export const MobileNavBar = styled.nav`
   display: none;
@@ -29,14 +27,12 @@ export const MobileNavBar = styled.nav`
 export const ListItem = styled.li`
   list-style: none;
   height: 2.5rem;
-  display: flex; // Adiciona display flex
-  align-items: center; // Centraliza verticalmente
-  justify-content: center; // Centraliza horizontalmente
 
   @media screen and (min-width: 768px) {
     margin: 1rem;
   }
 `
+
 
 export const LinkContainer = styled.a`
 
