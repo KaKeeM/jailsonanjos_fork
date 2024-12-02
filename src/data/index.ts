@@ -9,7 +9,7 @@ export const projects = [
   {
     title: 'WhatsNext - mobile',
     description: 'Rede social para amantes organização. Desta vez disponível para Android e Desktop.',
-    href: 'https://flutter-project-proud-paper-3157.fly.dev/',
+    href: 'https://whatsnextweb.com.br',
   },
 ]
 

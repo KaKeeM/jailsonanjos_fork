@@ -7,21 +7,22 @@ export function Projects() {
   const { t } = useTranslation()
   return (
     <>
+      
       <ProjectsContainer>
         <h4>
-          <a href={'https://whatsnextweb.fly.dev/'} target={'_blank'}>
-            WhatsNext?
-          </a>
-        </h4>
-        <p>{t("projects.description.whatsnextweb")}</p>
-      </ProjectsContainer>
-      <ProjectsContainer>
-        <h4>
-          <a href={'https://flutter-project-proud-paper-3157.fly.dev'} target={'_blank'}>
+          <a href={'https://whatsnextweb.com.br'} target={'_blank'}>
             WhatsNext? - Mobile & Desktop
           </a>
         </h4>
         <p>{t("projects.description.whatsnextmobile")}</p>
+      </ProjectsContainer>
+      <ProjectsContainer>
+        <h4>
+          <a href={'https://whatsnextweb.fly.dev/'} target={'_blank'}>
+            WhatsNext? - React (Em desenvolvimento)
+          </a>
+        </h4>
+        <p>{t("projects.description.whatsnextweb")}</p>
       </ProjectsContainer>
       <ProjectsContainer>
         <h4>
